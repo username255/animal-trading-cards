@@ -1,1 +1,12 @@
 /* add your CSS here */
+body { width: 320px }
+body > div { margin: auto; float: none }
+div {
+  border: solid #ccc 1px;
+  padding: 0px 10px 10px 10px
+}
+h3 { font-size: 1.6em }
+div > p:first-child { font-style: italic }
+ul { padding-left: 0 }
+ul li { list-style: none }
+li span { font-weight: bold }
