@@ -1,12 +1,11 @@
 /* add your CSS here */
-body { width: 320px }
-body > div { margin: auto; float: none }
-div {
-  border: solid #ccc 1px;
-  padding: 0px 10px 10px 10px
-}
-h3 { font-size: 1.6em }
-div > p:first-child { font-style: italic }
-ul { padding-left: 0 }
-ul li { list-style: none }
-li span { font-weight: bold }
+body { font-family: Arno Pro, Vernada, Times New Roman, Times, serif; width: 320px }
+.card { margin: auto; float: none }
+.card, .card__body { border: solid #ccc 1px; padding: 0px 10px 10px 10px }
+.card__body { background-color: #eee; background: linear-gradient(180deg, #fff 3%, #ccc); border-radius: 6px }
+.card__name { font-size: 1.6em }
+.card__pic { width: 300px }
+.card__short-bio { font-style: italic }
+.card__list { padding-left: 0 }
+.card__list li { list-style: none }
+.card__list li span { font-weight: bold }
